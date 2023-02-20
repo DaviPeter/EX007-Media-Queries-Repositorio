@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+/* CSS para Telas */
+
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: Helvetica;
+    color: #222;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #ccc;
+    height: 8vh;
+}
+
+.header-navegation {
+    display: flex;
+}
+
+.header-navegation-menu {
+    display: flex;
+    gap: 20px;
+}
+
+.header-navegation-menu a {
+    color: #222;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
