@@ -13,15 +13,20 @@
 
 header {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
     background-color: whitesmoke;
     border-bottom: 1px solid #ccc;
     height: 8vh;
     width: 100vw;
     margin-bottom: 20px;
     padding: 0 1vw;
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    width: 80%;
 }
 
 header h1 {
