@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+/* Geral */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    background-color: whitesmoke;
+    border-bottom: 1px solid #ccc;
+    height: 8vh;
+    width: 100vw;
+}
+
+header h1 {
+    position: absolute;
+    top: 1vh;
+    left: 37%;
+}
+
+.header-navegation {
+    display: none;
+}
+
+/* Main */
+
+main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container {
+    width: 70%;
+}
