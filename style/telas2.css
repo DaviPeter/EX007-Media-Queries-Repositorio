@@ -19,7 +19,9 @@ header {
     background-color: whitesmoke;
     border-bottom: 1px solid #ccc;
     height: 8vh;
+    width: 100vw;
     margin-bottom: 20px;
+    padding: 0 10vw;
 }
 
 header h1 {
